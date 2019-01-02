@@ -1,2 +1,2 @@
-# reactui
-@song88/react-components
+# @song88/react-components
+React Components

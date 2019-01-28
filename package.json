@@ -5,7 +5,9 @@
   "author": "Dennis",
   "keywords": [],
   "license": "UNLICENSED",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/FlyingCockatoo/reactui.git"
@@ -21,7 +23,7 @@
   },
   "peerDependencies": {
     "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "scripts": {
     "start": "react-scripts start",

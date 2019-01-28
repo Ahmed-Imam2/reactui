@@ -1,17 +1,39 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import * as serviceWorker from './serviceWorker';
+// import React from 'react'
+// import ReactDOM from 'react-dom'
 
-const App = () => (
-	<div style={{textAlign:'center',paddingTop:50}}>
-		<h1>Welcome to @song88 react components</h1>
-		<p>coming soon...</p>
-	</div>
-)
+// import styled from 'styled-components'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// const App = () => {
+// 	const Click = () => {
+// 		console.log('i am clicked')
+// 	}
+// 	return (
+// 		<div style={{textAlign:'center',paddingTop:50}}>
+// 			<h1>Welcome to @song88 react components</h1>
+// 			<p>coming soon...</p>
+// 			<Button 
+// 				size="sm"
+// 				disabled={false} 
+// 				fullWidth={false} 
+// 				onClick={Click}>
+// 				Save
+// 			</Button>
+// 			<Button 
+// 				size="sm" 
+// 				disabled={true} >Save</Button>
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// 			<Paragraph 
+// 				size={16} 
+// 				color={808080} 
+// 				light={true}
+// 				align="center">Hello there</Paragraph>
+
+				
+// 		</div>
+// 	)
+// }
+
+// ReactDOM.render(<App />, document.getElementById('root'));
+
+export { Button } from './Button'
+export { Paragraph } from './Paragraph'

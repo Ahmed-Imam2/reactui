@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { number, oneOf } from 'prop-types'
 import Icon from 'react-icon-base'
 
-export default class SportsIcon extends Component {
+class SportsIcon extends Component {
     static propTypes = {
         size: number,
         type: oneOf([
@@ -367,3 +367,5 @@ export default class SportsIcon extends Component {
         )
     }
 }
+
+export default SportsIcon

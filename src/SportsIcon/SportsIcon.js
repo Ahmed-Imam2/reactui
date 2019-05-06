@@ -7,3 +7,5 @@ class SportsIcon extends Component {
         )
     }
 }
+
+export default SportsIcon

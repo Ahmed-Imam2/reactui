@@ -1,21 +1,21 @@
 {
-    "name": "@song88/react-components",
-    "version": "0.0.1",
-    "description": "SONG88 Shared React Components",
-    "main": "build/index.js",
-    "repository": "https://github.com/FlyingCockatoo/reactui.git",
-    "author": "Dennis Solde",
-    "dependencies": {
-      "react": "^16.2.0"
-    },
-    "devDependencies": {
-      "babel-cli": "^6.26.0",
-      "babel-preset-env": "^1.6.1",
-      "babel-preset-react": "^6.24.1",
-      "babel-preset-stage-0": "^6.24.1"
-    },
-    "scripts": {
-      "build": "babel src -d build",
-      "prepare": "yarn run build"
-    }
+  "name": "@song88/react-components",
+  "version": "0.0.1",
+  "description": "SONG88 Shared React Components",
+  "main": "build/index.js",
+  "repository": "https://github.com/FlyingCockatoo/reactui.git",
+  "author": "Dennis Solde",
+  "dependencies": {
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "yarn run build"
   }
+}

@@ -6,8 +6,7 @@
     "repository": "https://github.com/FlyingCockatoo/reactui.git",
     "author": "Dennis Solde",
     "dependencies": {
-      "react": "^16.2.0",
-      "@song88/react-components": "git+ssh://git@github.com:FlyingCockatoo/reactui.git"
+      "react": "^16.2.0"
     },
     "devDependencies": {
       "babel-cli": "^6.26.0",

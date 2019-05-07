@@ -19,3 +19,10 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+
+- task: Npm@1
+  inputs:
+    command: 'publish'
+    workingDir: 'reacui'
+    publishRegistry: 'useFeed'
+    publishFeed: 'https://pkgs.dev.azure.com/song88-fci/_packaging/song88packages/npm/registry/ always-auth=true'

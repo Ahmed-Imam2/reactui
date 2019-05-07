@@ -23,6 +23,6 @@ steps:
 - task: Npm@1
   inputs:
     command: 'publish'
-    workingDir: 'reacui'
+    workingDir: '$(Build.SourcesDirectory)'
     publishRegistry: 'useFeed'
     publishFeed: 'https://pkgs.dev.azure.com/song88-fci/_packaging/song88packages/npm/registry/ always-auth=true'

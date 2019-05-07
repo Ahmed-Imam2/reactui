@@ -16,7 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm run build
+    npm build
   displayName: 'npm run build'
 
 - task: Npm@1

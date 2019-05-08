@@ -18,8 +18,6 @@
   },
   "scripts": {
     "build": "babel src -d build",
-    "prepare": "npm run build",
-    "postinstall": "postinstall-build --only-as-dependency dist",
-    "refreshVSToken": "vsts-npm-auth -config .npmrc"
+    "prepare": "npm run build"
   }
 }

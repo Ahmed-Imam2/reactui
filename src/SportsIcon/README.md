@@ -10,11 +10,11 @@ tennis
 volleyball 
 baseball 
 aussieRules 
-americanFootball 
-iceHockey 
+americanfootball 
+icehockey 
 cricket 
 golf 
-numberGame 
+numbergame 
 placeholder
 allsports
 ```

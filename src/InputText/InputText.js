@@ -15,7 +15,7 @@ import {
     HelpBlock
 } from './style'
 
-export default class InputText extends Component {
+class InputText extends Component {
 
     static propTypes = {
         /* Field default value */
@@ -108,3 +108,5 @@ export default class InputText extends Component {
         )
     }
 }
+
+export default InputText

@@ -12,7 +12,7 @@ import {
     Label,
     HelpBlock
 } from '../InputText/style'
-import StaticIcons from '../StaticIcons'
+import UIIcon from '../UIIcon'
 
 import styled from 'styled-components'
 
@@ -24,7 +24,7 @@ const PasswordWrapper = styled(InputWrapper)`
         :hover { cursor: pointer; }
     }
 `
-export default class InputPassword extends Component {
+class InputPassword extends Component {
 
     static propTypes = {
         /* Callback function calling with current value */
@@ -66,7 +66,7 @@ export default class InputPassword extends Component {
             placeholder,
             autoComplete 
         } = this.props
-        
+
         const { passwordFieldType } = this.state
         return (
             <PasswordWrapper>
@@ -84,13 +84,13 @@ export default class InputPassword extends Component {
                         autoComplete={autoComplete}
                     />
                     {passwordFieldType === 'password' ?
-                        <StaticIcons
+                        <UIIcon
                             type="eyeSlash"
                             style={{paddingBottom:11,paddingLeft:10}}
                             size={23} 
                             onClick={this.togglePassword} />
                         :
-                        <StaticIcons 
+                        <UIIcon 
                             type="eye"
                             style={{paddingBottom:11,paddingLeft:10}}
                             size={23} 
@@ -106,3 +106,5 @@ export default class InputPassword extends Component {
         )
     }
 }
+
+export default InputPassword

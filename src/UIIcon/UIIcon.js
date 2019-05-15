@@ -40,7 +40,10 @@ class UIIcon extends Component {
             'circleUpLight',
             'circleDownLight',
             'rightArrowHead',
-            'doubleAngleArrowRight'
+            'doubleAngleArrowRight',
+            'home',
+            'hamburger',
+            'information'
         ]).isRequired
     }
     VIEWBOX = (type) => {
@@ -117,6 +120,12 @@ class UIIcon extends Component {
                 return '0 0 292.359 292.359'
             case 'doubleAngleArrowRight':
                 return '0 0 284.936 284.936'
+            case 'home':
+                return '0 0 22 20.951'
+            case 'hamburger':
+                return '0 0 14.804 12.333'
+            case 'information':
+                return '0 0 37 37'
             default: 
                 return null
         }
@@ -784,6 +793,34 @@ class UIIcon extends Component {
                             L7.426,17.133C5.52,19.036,4.57,21.222,4.57,23.7c0,2.478,0.95,4.664,2.856,6.567L119.63,142.471L7.426,254.677
                             c-1.906,1.903-2.856,4.093-2.856,6.564c0,2.477,0.95,4.667,2.856,6.57l14.273,14.271c1.903,1.905,4.093,2.854,6.567,2.854
                             s4.664-0.951,6.567-2.854l133.042-133.044C169.785,147.136,170.732,144.945,170.732,142.471z"/>
+                    </g>
+                )
+            case 'home':
+                return(
+                    <g transform="translate(0)">
+                        <g>
+                        <path id="home-_1391_" data-name="home-[#1391]" d="M380.6,578.856h-3.3v-4.19h-6.6v4.19h-3.3v-9.624l6.588-6.275,6.611,6.295Zm2.2-10.471v0h0L374,560l-11,10.467,1.552,1.481.647-.621v9.624h7.7v-4.19h2.2v4.19h7.7v-9.6l.643.612L385,570.478Z" transform="translate(-363 -560)" fill="#fff" fill-rule="evenodd"/>
+                        </g>
+                    </g>
+                )
+            case 'hamburger':
+                return (
+                    <g transform="translate(-2044.5 70.5)">
+                        <line id="Line_8" data-name="Line 8" x2="12.804" transform="translate(2045.5 -69.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                        <line id="Line_9" data-name="Line 9" x2="12.804" transform="translate(2045.5 -64.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                        <line id="Line_10" data-name="Line 10" x2="12.804" transform="translate(2045.5 -59.167)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                    </g>
+                )
+            case 'information':
+                return (
+                    <g transform="translate(13)">
+                        <g id="Group_252" data-name="Group 252" transform="translate(-13)">
+                        <g id="Group_251" data-name="Group 251">
+                            <circle id="Ellipse_20" data-name="Ellipse 20" cx="1.807" cy="1.807" r="1.807" transform="translate(16.693 25.546)" fill="#fff"/>
+                            <path id="Path_86" data-name="Path 86" d="M18.5,0A18.5,18.5,0,1,0,37,18.5,18.49,18.49,0,0,0,18.5,0Zm0,34.109A15.609,15.609,0,1,1,34.109,18.5,15.6,15.6,0,0,1,18.5,34.109Z" fill="#fff"/>
+                            <path id="Path_87" data-name="Path 87" d="M181.781,128.5A5.788,5.788,0,0,0,176,134.281a1.445,1.445,0,0,0,2.891,0,2.891,2.891,0,1,1,2.891,2.891,1.445,1.445,0,0,0-1.445,1.445v3.613a1.445,1.445,0,0,0,2.891,0V139.88a5.782,5.782,0,0,0-1.445-11.38Z" transform="translate(-163.281 -119.214)" fill="#fff"/>
+                        </g>
+                        </g>
                     </g>
                 )
             default: 

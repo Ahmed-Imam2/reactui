@@ -111,7 +111,7 @@ class UIIcon extends Component {
             case 'spinner':
                 return '0 0 100 100'
             case 'warning':
-                return '0 0 50 100'
+                return '0 0 50 50'
             case 'circleUpLight':
                 return '0 0 50 50'
             case 'circleDownLight':

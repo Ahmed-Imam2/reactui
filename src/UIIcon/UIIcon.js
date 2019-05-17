@@ -799,16 +799,16 @@ class UIIcon extends Component {
                 return(
                     <g transform="translate(0)">
                         <g>
-                        <path id="home-_1391_" data-name="home-[#1391]" d="M380.6,578.856h-3.3v-4.19h-6.6v4.19h-3.3v-9.624l6.588-6.275,6.611,6.295Zm2.2-10.471v0h0L374,560l-11,10.467,1.552,1.481.647-.621v9.624h7.7v-4.19h2.2v4.19h7.7v-9.6l.643.612L385,570.478Z" transform="translate(-363 -560)" fill="#fff" fill-rule="evenodd"/>
+                        <path id="home-_1391_" data-name="home-[#1391]" d="M380.6,578.856h-3.3v-4.19h-6.6v4.19h-3.3v-9.624l6.588-6.275,6.611,6.295Zm2.2-10.471v0h0L374,560l-11,10.467,1.552,1.481.647-.621v9.624h7.7v-4.19h2.2v4.19h7.7v-9.6l.643.612L385,570.478Z" transform="translate(-363 -560)" fill="#fff" fillRule="evenodd"/>
                         </g>
                     </g>
                 )
             case 'hamburger':
                 return (
                     <g transform="translate(-2044.5 70.5)">
-                        <line id="Line_8" data-name="Line 8" x2="12.804" transform="translate(2045.5 -69.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
-                        <line id="Line_9" data-name="Line 9" x2="12.804" transform="translate(2045.5 -64.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
-                        <line id="Line_10" data-name="Line 10" x2="12.804" transform="translate(2045.5 -59.167)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                        <line id="Line_8" data-name="Line 8" x2="12.804" transform="translate(2045.5 -69.5)" fill="none" stroke="#fff" strokeLinecap="round" strokeWidth="2"/>
+                        <line id="Line_9" data-name="Line 9" x2="12.804" transform="translate(2045.5 -64.333)" fill="none" stroke="#fff" strokeLinecap="round" strokeWidth="2"/>
+                        <line id="Line_10" data-name="Line 10" x2="12.804" transform="translate(2045.5 -59.167)" fill="none" stroke="#fff" strokeLinecap="round" strokeWidth="2"/>
                     </g>
                 )
             case 'information':

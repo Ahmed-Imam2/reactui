@@ -35,6 +35,7 @@ circleUpLight
 circleDownLight
 rightArrowHead
 doubleAngleArrowRight
+spinnerWhite
 ```
 
 ## Usage

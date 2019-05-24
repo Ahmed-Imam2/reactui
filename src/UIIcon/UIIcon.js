@@ -43,7 +43,8 @@ class UIIcon extends Component {
             'doubleAngleArrowRight',
             'home',
             'hamburger',
-            'information'
+            'information',
+            'spinnerWhite'
         ]).isRequired
     }
     VIEWBOX = (type) => {
@@ -126,6 +127,8 @@ class UIIcon extends Component {
                 return '0 0 14.804 12.333'
             case 'information':
                 return '0 0 37 37'
+            case 'spinnerWhite':
+                return '0 0 128 128'
             default: 
                 return null
         }
@@ -821,6 +824,20 @@ class UIIcon extends Component {
                             <path id="Path_87" data-name="Path 87" d="M181.781,128.5A5.788,5.788,0,0,0,176,134.281a1.445,1.445,0,0,0,2.891,0,2.891,2.891,0,1,1,2.891,2.891,1.445,1.445,0,0,0-1.445,1.445v3.613a1.445,1.445,0,0,0,2.891,0V139.88a5.782,5.782,0,0,0-1.445-11.38Z" transform="translate(-163.281 -119.214)" fill="#fff"/>
                         </g>
                         </g>
+                    </g>
+                )
+            case 'spinnerWhite':
+                return (
+                    <g>
+                        <circle cx="16" cy="64" r="16" fill="#ffffff"/><circle cx="16" cy="64" r="16" fill="#aaaaaa" transform="rotate(45,64,64)"/>
+                        <circle cx="16" cy="64" r="16" fill="#6b6b6b" transform="rotate(90,64,64)"/>
+                        <circle cx="16" cy="64" r="16" fill="#333333" transform="rotate(135,64,64)"/>
+                        <circle cx="16" cy="64" r="16" fill="#1e1e1e" transform="rotate(180,64,64)"/>
+                        <circle cx="16" cy="64" r="16" fill="#1e1e1e" transform="rotate(225,64,64)"/>
+                        <circle cx="16" cy="64" r="16" fill="#1e1e1e" transform="rotate(270,64,64)"/>
+                        <circle cx="16" cy="64" r="16" fill="#1e1e1e" transform="rotate(315,64,64)"/>
+                        <animateTransform attributeName="transform" type="rotate" values="0 64 64;315 64 64;270 64 64;225 64 64;180 64 64;135 64 64;90 64 64;45 64 64" calcMode="discrete" dur="960ms" repeatCount="indefinite">
+                        </animateTransform>
                     </g>
                 )
             default: 

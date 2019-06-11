@@ -150,10 +150,27 @@ class SportsIcon extends Component {
                     return (
                         <React.Fragment>
                             <style jsx="true">{`
-                                .bb0{fill:url(#SVGID_1_);}
-                                .bb1{opacity:0.5;fill:url(#SVGID_2_);enable-background:new    ;}
-                                .bb2{fill:url(#SVGID_3_);}
-                                .bb3{fill:url(#SVGID_4_);}         
+                                .st0{display:none;}
+                                .st1{display:inline;}
+                                .st2{fill:#6B4841;}
+                                .st3{display:inline;fill:#556080;}
+                                .st4{display:inline;fill:#E15649;}
+                                .st5{display:inline;fill:#4C2C28;}
+                                .st6{fill:#ECBA16;}
+                                .st7{display:inline;fill:#ECBA16;}
+                                .st8{fill:#6D6D6D;}
+                                .st9{fill:#444444;}
+                                .st10{fill:#FFCB39;}
+                                .st11{fill:#FF9600;}
+                                .st12{fill:#303C42;}
+                                .st13{fill:#F2F2F2;}
+                                .st14{fill:#FFCA28;}
+                                .st15{opacity:0.2;fill:#FFFFFF;enable-background:new    ;}
+                                .st16{opacity:0.1;enable-background:new    ;}
+                                .st17{fill:#5C6671;}
+                                .st18{fill:url(#Path_381_1_);}
+                                .st19{fill:#333333;}
+                                .st20{display:inline;fill:#333333;}       
                             `}
                             </style>
                             <g>

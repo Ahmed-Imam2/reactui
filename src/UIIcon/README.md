@@ -36,6 +36,13 @@ circleDownLight
 rightArrowHead
 doubleAngleArrowRight
 spinnerWhite
+iconLocked
+trophy
+notfound
+restrictedIconLocked
+notAllowed
+warningTriagle
+underMaintenance
 ```
 
 ## Usage

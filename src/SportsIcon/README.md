@@ -16,6 +16,14 @@ cricket
 golf 
 numbergame 
 placeholder
+
+badminton
+rubgy
+dogracing
+horseracing
+virtualsports
+motorsports
+
 allsports
 ```
 

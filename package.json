@@ -1,6 +1,6 @@
 {
   "name": "@song88/react-components",
-  "version": "1.1.2",
+  "version": "1.1.9",
   "private": false,
   "author": "Dennis Solde",
   "keywords": [],
@@ -12,6 +12,7 @@
     "url": "https://github.com/FlyingCockatoo/reactui.git"
   },
   "scripts": {
+    "storybook": "start-storybook -p 6006",
     "build": "babel src -d build",
     "prepare": "npm run build"
   },
@@ -22,9 +23,14 @@
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "babel-loader": "^8.0.6"
   }
 }

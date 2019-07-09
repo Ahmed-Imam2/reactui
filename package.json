@@ -1,6 +1,6 @@
 {
   "name": "@song88/react-components",
-  "version": "1.1.9",
+  "version": "1.2.0",
   "private": false,
   "author": "Dennis Solde",
   "keywords": [],
@@ -28,6 +28,7 @@
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-knobs": "^5.1.9",
     "@storybook/addon-links": "^5.1.9",
     "@storybook/addons": "^5.1.9",
     "@storybook/react": "^5.1.9",

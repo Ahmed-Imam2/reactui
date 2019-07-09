@@ -6,14 +6,62 @@ import {
     oneOfType,
     number,
     string,
-    object
+    object,
+    bool
 } from 'prop-types'
-import {
-    InputWrapper,
-    Input,
-    Label,
-    HelpBlock
-} from './style'
+import styled from 'styled-components'
+
+const InputWrapper = styled.div`
+    position: relative;
+    width: ${props => (props.fullWidth ? '100%' : 'initial')};
+`
+const Input = styled.input`
+    font-size: 14px;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid rgb(228, 231, 234);
+
+    :focus { outline: none; }
+    :hover { -webkit-appearance: none; margin: 0; }
+    &.error { border: 1px solid red; }
+
+    ::-webkit-inner-spin-button,
+    ::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    :-internal-autofill-selected {
+        background: transparent;
+        -webkit-box-shadow: 0 0 0 30px white inset;
+    }
+    
+    :-webkit-autofill,
+    :-webkit-autofill:hover, 
+    :-webkit-autofill:focus {
+        background: transparent;
+        -webkit-box-shadow: 0 0 0 30px white inset;
+    }
+
+`
+const Label = styled.label`
+    pointer-events: none;
+    transition: 0.3s ease all;
+`
+const HelpBlock = styled.div`
+    display: block;
+    margin-top: 4px;
+    font-size: 12px;
+    span { display: block; }
+    &.error {
+        color: #fff;
+    }
+    span.error {
+        color: rgb(149, 14, 14);
+    }
+`
 
 class InputText extends Component {
 
@@ -38,8 +86,10 @@ class InputText extends Component {
         className: string,
         /* Input custom styles */
         style: oneOfType([object, string]),
-        /* Input name */
-        autoComplete: string
+        /**
+         * Make input white
+         */
+        fullWidth: bool
     }
 
     static defaultProps = {
@@ -50,25 +100,6 @@ class InputText extends Component {
         inputFocused: false
     }
 
-    onFocus = e => {
-        this.setState({ inputFocused: true })
-
-        if (this.props && this.props.onFocus)
-            this.props.onFocus()
-    }
-
-    onBlur = e => {
-        if(e.target.value === '')
-        this.setState({inputFocused: !this.state.inputFocused })   
-    }
-
-    onKeyPress = (event) => {
-        const keyCode = event.keyCode || event.which;
-        const keyValue = String.fromCharCode(keyCode);
-            if (/\+|-/.test(keyValue))
-            event.preventDefault();
-    }
-
     render() {
         const { 
             type, 
@@ -77,26 +108,21 @@ class InputText extends Component {
             onChange, 
             className, 
             error,
-            style,
             placeholder,
-            autoComplete,
-            hint
+            hint,
+            value,
+            fullWidth
         } = this.props
 
         return (
-            <InputWrapper>
+            <InputWrapper >
                 <Label>{label}</Label>
                 <Input
                     placeholder={placeholder}
-                    style={style}
                     type={type}
                     name={name}
-                    autoComplete={autoComplete}
                     onChange={onChange}
-                    onFocus={this.onFocus}
-                    onBlur={this.onBlur}
-                    className={className}
-                    onKeyPress={(type==='number') ? this.onKeyPress : null}
+                    value={value}
                 />
                 {error || hint ? (
                     <HelpBlock className={className}>

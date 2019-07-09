@@ -4,18 +4,63 @@ import {
     func,
     oneOfType,
     string,
-    object
+    object,
+    bool
 } from 'prop-types'
-import { 
-    InputWrapper,
-    Input,
-    Label,
-    HelpBlock
-} from '../InputText/style'
 import UIIcon from '../UIIcon'
-
 import styled from 'styled-components'
 
+const InputWrapper = styled.div`
+    position: relative;
+    width: ${props => (props.fullWidth ? '100%' : 'initial')};
+`
+const Input = styled.input`
+    font-size: 14px;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid rgb(228, 231, 234);
+
+    :focus { outline: none; }
+    :hover { -webkit-appearance: none; margin: 0; }
+    &.error { border: 1px solid red; }
+
+    ::-webkit-inner-spin-button,
+    ::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    :-internal-autofill-selected {
+        background: transparent;
+        -webkit-box-shadow: 0 0 0 30px white inset;
+    }
+    
+    :-webkit-autofill,
+    :-webkit-autofill:hover, 
+    :-webkit-autofill:focus {
+        background: transparent;
+        -webkit-box-shadow: 0 0 0 30px white inset;
+    }
+
+`
+const Label = styled.label`
+    pointer-events: none;
+    transition: 0.3s ease all;
+`
+const HelpBlock = styled.div`
+    display: block;
+    margin-top: 4px;
+    font-size: 12px;
+    span { display: block; }
+    &.error {
+        color: #fff;
+    }
+    span.error {
+        color: rgb(149, 14, 14);
+    }
+`
 const PasswordWrapper = styled(InputWrapper)`
     svg {
         position: absolute;
@@ -37,12 +82,12 @@ class InputPassword extends Component {
         placeholder: string,
         /* Input name */
         name: string,
-        /* Input class */
-        className: string,
         /* Input custom styles */
         style: oneOfType([object, string]),
         /* AutoComplete */
-        autoComplete: string
+        autoComplete: bool,
+        /* Value */
+        value: string
     }
 
     state = {
@@ -60,11 +105,10 @@ class InputPassword extends Component {
             name, 
             label, 
             onChange, 
-            className, 
             error,
-            style,
             placeholder,
-            autoComplete 
+            autoComplete,
+            value
         } = this.props
 
         const { passwordFieldType } = this.state
@@ -74,31 +118,25 @@ class InputPassword extends Component {
                 <InputWrapper>
                     <Input
                         placeholder={placeholder}
-                        style={style}
                         type={passwordFieldType}
                         name={name}
                         onChange={onChange}
-                        onFocus={this.onFocus}
-                        onBlur={this.onBlur}
-                        className={className}
                         autoComplete={autoComplete}
+                        value={value}
                     />
                     {passwordFieldType === 'password' ?
                         <UIIcon
                             type="eyeSlash"
-                            style={{paddingBottom:11,paddingLeft:10}}
-                            size={23} 
+                            size={20} 
                             onClick={this.togglePassword} />
                         :
                         <UIIcon 
                             type="eye"
-                            style={{paddingBottom:11,paddingLeft:10}}
-                            size={23} 
-                            onClick={this.togglePassword} />
-                    }
+                            size={20} 
+                            onClick={this.togglePassword} />}
                 </InputWrapper>
                 {error ? (
-                    <HelpBlock className={className}>
+                    <HelpBlock>
                         {error ? error  : null}
                     </HelpBlock>
                 ) : null}

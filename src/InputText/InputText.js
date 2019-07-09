@@ -116,7 +116,7 @@ class InputText extends Component {
 
         return (
             <InputWrapper >
-                <Label>{label}</Label>
+                {label ? <Label>{label}</Label> : null}
                 <Input
                     placeholder={placeholder}
                     type={type}

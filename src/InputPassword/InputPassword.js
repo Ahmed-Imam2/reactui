@@ -114,7 +114,7 @@ class InputPassword extends Component {
         const { passwordFieldType } = this.state
         return (
             <PasswordWrapper>
-                <Label>{label}</Label>
+                {label ? <Label>{label}</Label> : null}
                 <InputWrapper>
                     <Input
                         placeholder={placeholder}
@@ -137,7 +137,7 @@ class InputPassword extends Component {
                 </InputWrapper>
                 {error ? (
                     <HelpBlock>
-                        {error ? error  : null}
+                        {error ? <span className="error">{error}</span>  : null}
                     </HelpBlock>
                 ) : null}
             </PasswordWrapper>

@@ -73,7 +73,7 @@ class InputSelect extends Component {
 
         return (
             <SelectWrapper>
-                <Label>{label}</Label>
+                {label ? <Label>{label}</Label> : null}
                 <Select 
                     style={style}
                     className={className}

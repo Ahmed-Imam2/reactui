@@ -16,7 +16,7 @@ class SportsIcon extends Component {
             'baseball',
             'aussieRules',
             'americanfootball',
-            'icehokey',
+            'icehockey',
             'cricket',
             'golf',
             'numbergames',
@@ -52,7 +52,7 @@ class SportsIcon extends Component {
                 return '0 0 50 50'
             case 'americanfootball':
                 return '0 0 50 50'
-            case 'icehokey':
+            case 'icehockey':
                 return '0 0 50 50'
             case 'allsports':
                 return '0 0 50 50'
@@ -199,42 +199,42 @@ class SportsIcon extends Component {
                                 <g>
                                     
                                     <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="23.2618" y1="-35.2623" x2="25.7607" y2="21.5285" gradientTransform="matrix(1 0 0 1 0 20)">
-                                    <stop  offset="0" style="stop-color:#E9E4DE"/>
-                                    <stop  offset="0.3992" style="stop-color:#E7E2DB"/>
-                                    <stop  offset="0.6533" style="stop-color:#E2DAD3"/>
-                                    <stop  offset="0.8662" style="stop-color:#DACEC4"/>
-                                    <stop  offset="0.9946" style="stop-color:#D2C3B7"/>
+                                    <stop  offset="0" style={{stopColor:'#E9E4DE'}}/>
+                                    <stop  offset="0.3992" style={{stopColor:'#E7E2DB'}}/>
+                                    <stop  offset="0.6533" style={{stopColor:'#E2DAD3'}}/>
+                                    <stop  offset="0.8662" style={{stopColor:'#DACEC4'}}/>
+                                    <stop  offset="0.9946" style={{stopColor:'#D2C3B7'}}/>
                                     </linearGradient>
                                     <ellipse className="bb0" cx="25" cy="25" rx="21.9" ry="21.8"/>
                                     
                                     <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="23.4916" y1="-30.0408" x2="25.7662" y2="21.6557" gradientTransform="matrix(1 0 0 1 0 20)">
-                                    <stop  offset="0" style="stop-color:#E9E4DE;stop-opacity:0"/>
-                                    <stop  offset="0.5188" style="stop-color:#E8E2DC;stop-opacity:0.5216"/>
-                                    <stop  offset="0.722" style="stop-color:#E4DCD5;stop-opacity:0.7259"/>
-                                    <stop  offset="0.8694" style="stop-color:#DDD2C9;stop-opacity:0.874"/>
-                                    <stop  offset="0.9897" style="stop-color:#D3C4B8;stop-opacity:0.9951"/>
-                                    <stop  offset="0.9946" style="stop-color:#D2C3B7"/>
+                                    <stop  offset="0" style={{stopColor:'#E9E4DE',stopOpacity:0}}/>
+                                    <stop  offset="0.5188" style={{stopColor:'#E8E2DC',stopOpacity:'0.5216'}}/>
+                                    <stop  offset="0.722" style={{stopColor:'#E4DCD5',stopOpacity:'0.7259'}}/>
+                                    <stop  offset="0.8694" style={{stopColor:'#DDD2C9',stopOpacity:'0.874'}}/>
+                                    <stop  offset="0.9897" style={{stopColor:'#D3C4B8',stopOpacity:'0.9951'}}/>
+                                    <stop  offset="0.9946" style={{stopColor:'#D2C3B7'}}/>
                                     </linearGradient>
                                     <path className="bb1" d="M11.7,7.7c-5.2,4-8.6,10.2-8.6,17.3C3.1,37.1,13,46.9,25,46.9S46.9,37.1,46.9,25c0-6.5-2.8-12.3-7.4-16.3
                                     c4.7,4.2,6.1,13,4.9,18.8c-1.2,6-5.8,11.9-11.6,14.3c-7.1,2.9-16.3,1.3-21.7-4.3c-4.2-4.3-5.9-10.3-5.5-16.1
                                     C6,15.9,8.4,11.5,11.7,7.7z"/>
                                     
                                     <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="11.227" y1="-28.9794" x2="13.9528" y2="24.8563" gradientTransform="matrix(1 0 0 1 0 20)">
-                                    <stop  offset="0.3666" style="stop-color:#CDD0D6"/>
-                                    <stop  offset="0.4266" style="stop-color:#C2C6CC"/>
-                                    <stop  offset="0.6764" style="stop-color:#98A1A5"/>
-                                    <stop  offset="0.8725" style="stop-color:#7E8A8D"/>
-                                    <stop  offset="0.9892" style="stop-color:#748284"/>
+                                    <stop  offset="0.3666" style={{stopColor:'#CDD0D6'}}/>
+                                    <stop  offset="0.4266" style={{stopColor:'#C2C6CC'}}/>
+                                    <stop  offset="0.6764" style={{stopColor:'#98A1A5'}}/>
+                                    <stop  offset="0.8725" style={{stopColor:'#7E8A8D'}}/>
+                                    <stop  offset="0.9892" style={{stopColor:'#748284'}}/>
                                     </linearGradient>
                                     <path className="bb2" d="M13,34.4c-1,2-2.2,4-3.7,5.8c0.3,0.3,0.4,0.4,0.7,0.7c1.5-1.9,2.8-3.8,3.9-6c4.6-9.8,4.3-20.2-0.5-28.3
                                     c-0.3,0.2-0.5,0.4-0.9,0.5C17.1,14.9,17.4,24.9,13,34.4z"/>
                                     
                                     <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="30.4848" y1="-23.5846" x2="43.2076" y2="22.7628" gradientTransform="matrix(1 0 0 1 0 20)">
-                                    <stop  offset="0.3666" style="stop-color:#CDD0D6"/>
-                                    <stop  offset="0.4266" style="stop-color:#C2C6CC"/>
-                                    <stop  offset="0.6764" style="stop-color:#98A1A5"/>
-                                    <stop  offset="0.8725" style="stop-color:#7E8A8D"/>
-                                    <stop  offset="0.9892" style="stop-color:#748284"/>
+                                    <stop  offset="0.3666" style={{stopColor:'#CDD0D6'}}/>
+                                    <stop  offset="0.4266" style={{stopColor:'#C2C6CC'}}/>
+                                    <stop  offset="0.6764" style={{stopColor:'#98A1A5'}}/>
+                                    <stop  offset="0.8725" style={{stopColor:'#7E8A8D'}}/>
+                                    <stop  offset="0.9892" style={{stopColor:'#748284'}}/>
                                     </linearGradient>
                                     <path className="bb3" d="M41.3,39.7c-1.2-1.6-2.4-3.4-3.3-5.2c-4.4-9.3-4.2-19.2,0.2-26.9c-0.3-0.2-0.5-0.4-0.9-0.6
                                     c-4.6,8-4.9,18.3-0.3,27.9c1,2,2.1,3.8,3.5,5.5C40.8,40.2,41,39.9,41.3,39.7z"/>
@@ -571,15 +571,15 @@ class SportsIcon extends Component {
                                 c-3,1.2-5.9,2.7-8.5,4.7C2,19-3.1,35.6,2.5,42.9z"/>
                             <path fill="#BA503C" d="M34.9,38.9C24.6,46.6,9.6,48,4.5,41.3C-0.6,34.7,4.3,19.8,14.6,12s26-8.4,31.1-1.8
                                 C50.7,16.8,45.1,31.1,34.9,38.9z"/>     
-                                <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-512.6326" y1="-155.8585" x2="-513.511" y2="-140.9234" gradientTransform="matrix(0.6056 0.7958 0.7958 -0.6056 469.6461 331.2679)">
-                                <stop  offset="0" style="stop-color:#FFFFFF"/>
-                                <stop  offset="0.9946" style="stop-color:#B7CAD4"/>
+                            <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-512.6326" y1="-155.8585" x2="-513.511" y2="-140.9234" gradientTransform="matrix(0.6056 0.7958 0.7958 -0.6056 469.6461 331.2679)">
+                                <stop  offset="0" style={{stopColor:'#FFFFFF'}}/>
+                                <stop  offset="0.9946" style={{stopColor:'#B7CAD4'}}/>
                             </linearGradient>
                             <path fill="url(#SVGID_1_)" d="M33.9,5.6c-2.2,0-4.6,0.2-6.9,0.7c7.7,7.8,13.7,17.1,16.8,22.4c1.2-2,2.1-4,2.7-6
                                 C42.4,14.9,37.4,9.1,33.9,5.6z"/>    
                                 <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-526.9913" y1="-184.634" x2="-498.3906" y2="-184.634" gradientTransform="matrix(0.6056 0.7958 0.7958 -0.6056 469.6461 331.2679)">
-                                <stop  offset="0" style="stop-color:#FFFFFF"/>
-                                <stop  offset="0.9946" style="stop-color:#B7CAD4"/>
+                                <stop  offset="0" style={{stopColor:'#FFFFFF'}}/>
+                                <stop  offset="0.9946" style={{stopColor:'#B7CAD4'}}/>
                             </linearGradient>
                             <path fill="url(#SVGID_2_)" d="M6.2,21.7c-1.1,2-2,4.1-2.7,6.1c4.6,8.6,10.2,14.6,13.6,17.7c2.1-0.1,4.3-0.5,6.5-1.1
                                 C15.7,36.7,9.6,27.3,6.2,21.7z"/>
@@ -618,7 +618,7 @@ class SportsIcon extends Component {
                             <rect x="0" width="1" height="50"/>
                         </g>
                     )
-                case 'icehokey':
+                case 'icehockey':
                     return (
                         <React.Fragment>
                             <style jsx="true">{`
@@ -732,7 +732,7 @@ class SportsIcon extends Component {
                             </g>
                         </React.Fragment>
                     )
-                case 'numberGame':
+                case 'numbergames':
                     return (
                         <React.Fragment>
                             <style jsx="true">{` .asst4{fill:url(#SVGID_1_);}
@@ -836,41 +836,41 @@ class SportsIcon extends Component {
                                     <g>
                                       
                                         <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="24.648" y1="-27.872" x2="25.2885" y2="-13.3161" gradientTransform="matrix(1 0 0 1 0 60)">
-                                        <stop  offset="0" style="stop-color:#E9E4DE"/>
-                                        <stop  offset="0.3992" style="stop-color:#E7E2DB"/>
-                                        <stop  offset="0.6533" style="stop-color:#E2DAD3"/>
-                                        <stop  offset="0.8662" style="stop-color:#DACEC4"/>
-                                        <stop  offset="0.9946" style="stop-color:#D2C3B7"/>
+                                        <stop  offset="0" style={{stopColor:'#E9E4DE'}}/>
+                                        <stop  offset="0.3992" style={{stopColor:'#E7E2DB'}}/>
+                                        <stop  offset="0.6533" style={{stopColor:'#E2DAD3'}}/>
+                                        <stop  offset="0.8662" style={{stopColor:'#DACEC4'}}/>
+                                        <stop  offset="0.9946" style={{stopColor:'D2C3B7'}}/>
                                       </linearGradient>
                                       <ellipse className="asst4" cx="25.1" cy="42.4" rx="5.6" ry="5.6"/>
                                       
                                         <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="24.6074" y1="-26.5293" x2="25.1904" y2="-13.2791" gradientTransform="matrix(1 0 0 1 0 60)">
-                                        <stop  offset="0" style="stop-color:#E9E4DE;stop-opacity:0"/>
-                                        <stop  offset="0.5188" style="stop-color:#E8E2DC;stop-opacity:0.5216"/>
-                                        <stop  offset="0.722" style="stop-color:#E4DCD5;stop-opacity:0.7259"/>
-                                        <stop  offset="0.8694" style="stop-color:#DDD2C9;stop-opacity:0.874"/>
-                                        <stop  offset="0.9897" style="stop-color:#D3C4B8;stop-opacity:0.9951"/>
-                                        <stop  offset="0.9946" style="stop-color:#D2C3B7"/>
+                                        <stop  offset="0" style={{stopColor:'#E9E4DE',stopOpacity:0}}/>
+                                        <stop  offset="0.5188" style={{stopColor:'#E8E2DC',stopOpacity:'0.5216'}}/>
+                                        <stop  offset="0.722" style={{stopColor:'#E4DCD5',stopOpacity:'0.7259'}}/>
+                                        <stop  offset="0.8694" style={{stopColor:'#DDD2C9',stopOpacity:'0.874'}}/>
+                                        <stop  offset="0.9897" style={{stopColor:'#D3C4B8',stopOpacity:'0.9951'}}/>
+                                        <stop  offset="0.9946" style={{stopColor:'#D2C3B7'}}/>
                                       </linearGradient>
                                       <path className="asst5" d="M21.6,38c-1.4,1-2.2,2.6-2.2,4.4c0,3.1,2.6,5.6,5.6,5.6s5.6-2.5,5.6-5.6c0-1.7-0.7-3.1-1.9-4.2
                                         c1.2,1,1.5,3.3,1.3,4.8c-0.3,1.5-1.4,3.1-3,3.7c-1.9,0.7-4.2,0.3-5.6-1.1c-1-1.1-1.5-2.7-1.4-4.1C20.2,40.1,20.8,39,21.6,38z"/>
                                       
                                         <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="21.5496" y1="-26.1412" x2="22.2417" y2="-12.4731" gradientTransform="matrix(1 0 0 1 0 60)">
-                                        <stop  offset="0.3666" style="stop-color:#CDD0D6"/>
-                                        <stop  offset="0.4266" style="stop-color:#C2C6CC"/>
-                                        <stop  offset="0.6764" style="stop-color:#98A1A5"/>
-                                        <stop  offset="0.8725" style="stop-color:#7E8A8D"/>
-                                        <stop  offset="0.9892" style="stop-color:#748284"/>
+                                        <stop  offset="0.3666" style={{stopColor:'#CDD0D6'}}/>
+                                        <stop  offset="0.4266" style={{stopColor:'#C2C6CC'}}/>
+                                        <stop  offset="0.6764" style={{stopColor:'#98A1A5'}}/>
+                                        <stop  offset="0.8725" style={{stopColor:'#7E8A8D'}}/>
+                                        <stop  offset="0.9892" style={{stopColor:'#748284'}}/>
                                       </linearGradient>
                                       <path className="asst6" d="M22,44.8c-0.2,0.5-0.6,1-1,1.4c0.1,0.1,0.1,0.1,0.2,0.2c0.4-0.5,0.7-1,1-1.5c1.2-2.5,1.2-5.1-0.1-7.2
                                         c-0.1,0.1-0.2,0.1-0.2,0.2C23,39.9,23.1,42.4,22,44.8z"/>
                                       
                                         <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="26.5462" y1="-24.899" x2="29.8071" y2="-13.0198" gradientTransform="matrix(1 0 0 1 0 60)">
-                                        <stop  offset="0.3666" style="stop-color:#CDD0D6"/>
-                                        <stop  offset="0.4266" style="stop-color:#C2C6CC"/>
-                                        <stop  offset="0.6764" style="stop-color:#98A1A5"/>
-                                        <stop  offset="0.8725" style="stop-color:#7E8A8D"/>
-                                        <stop  offset="0.9892" style="stop-color:#748284"/>
+                                        <stop  offset="0.3666" style={{stopColor:'#CDD0D6'}}/>
+                                        <stop  offset="0.4266" style={{stopColor:'#C2C6CC'}}/>
+                                        <stop  offset="0.6764" style={{stopColor:'#98A1A5'}}/>
+                                        <stop  offset="0.8725" style={{stopColor:'#7E8A8D'}}/>
+                                        <stop  offset="0.9892" style={{stopColor:'#748284'}}/>
                                       </linearGradient>
                                       <path className="asst7" d="M29.3,46.2c-0.3-0.4-0.6-0.9-0.9-1.4c-1.1-2.4-1-4.9,0.1-6.9c-0.1-0.1-0.2-0.1-0.2-0.2
                                         c-1.2,2-1.3,4.7-0.1,7.2c0.2,0.5,0.6,1,0.9,1.4C29.1,46.4,29.2,46.3,29.3,46.2z"/>

@@ -43,6 +43,17 @@ restrictedIconLocked
 notAllowed
 warningTriagle
 underMaintenance
+allGames
+favorites
+match5
+miniGames
+otherGames
+parlor
+poker
+scratchCard
+slot
+table
+topGames
 ```
 
 ## Usage

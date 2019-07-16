@@ -49,7 +49,18 @@ storiesOf('Icon UI', module)
 			'restrictedIconLocked',
 			'notAllowed',
 			'warningTriagle',
-			'underMaintenance'
+			'underMaintenance',
+			'allGames',
+			'favorites',
+			'match5',
+			'miniGames',
+            'otherGames',
+            'parlor',
+            'poker',
+            'scratchCard',
+            'slot',
+            'table',
+            'topGames'
 		]
 
 		return icons.map( icon => {

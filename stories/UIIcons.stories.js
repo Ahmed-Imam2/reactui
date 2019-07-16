@@ -60,13 +60,15 @@ storiesOf('Icon UI', module)
             'scratchCard',
             'slot',
             'table',
-            'topGames'
+            'topGames',
+			'rightChevron',
+			'leftChevron'
 		]
 
 		return icons.map( icon => {
 			return (
-				<div style={{display:'inline-block',marginLeft:20,marginBottom:10}}>
-					<UIIcon type={icon} size={50} key={`Icon_${icon}`}/>
+				<div style={{display:'inline-block',marginLeft:20,marginBottom:10}} key={`Icon_${icon}`}>
+					<UIIcon type={icon} size={50} />
 					<span style={{display:'flex',alignItems:'center',justifyContent:'center'}}>{icon}</span>
 				</div>
 			)

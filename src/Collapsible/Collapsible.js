@@ -84,7 +84,7 @@ const CollapsibleContent = styled.div`
 class Collapsible extends Component {
 
     static propTypes = {
-        title: PropTypes.string,
+        title: PropTypes.node,
         open: PropTypes.bool,
         children: PropTypes.node,
         fullWidth: PropTypes.bool,

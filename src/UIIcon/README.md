@@ -54,6 +54,8 @@ scratchCard
 slot
 table
 topGames
+leftChevron
+rightChevron
 ```
 
 ## Usage

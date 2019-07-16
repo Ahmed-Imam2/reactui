@@ -43,6 +43,8 @@ restrictedIconLocked
 notAllowed
 warningTriagle
 underMaintenance
+leftChevron
+rightChevron
 ```
 
 ## Usage

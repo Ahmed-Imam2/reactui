@@ -49,7 +49,9 @@ storiesOf('Icon UI', module)
 			'restrictedIconLocked',
 			'notAllowed',
 			'warningTriagle',
-			'underMaintenance'
+			'underMaintenance',
+			'rightChevron',
+			'leftChevron'
 		]
 
 		return icons.map( icon => {

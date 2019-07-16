@@ -115,7 +115,7 @@ class InputText extends Component {
         } = this.props
 
         return (
-            <InputWrapper >
+            <InputWrapper fullWidth={fullWidth}>
                 {label ? <Label>{label}</Label> : null}
                 <Input
                     placeholder={placeholder}
@@ -123,6 +123,7 @@ class InputText extends Component {
                     name={name}
                     onChange={onChange}
                     value={value}
+                    {...this.props}
                 />
                 {error || hint ? (
                     <HelpBlock className={className}>

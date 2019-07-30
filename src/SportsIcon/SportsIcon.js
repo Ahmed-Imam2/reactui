@@ -440,7 +440,7 @@ class SportsIcon extends Component {
                                 <stop  offset="0.8662" style={{stopColor:'#DACEC4'}} />
                                 <stop  offset="0.9946" style={{stopColor:'#D2C3B7'}} />
                                 </linearGradient>
-                                <ellipse class="bb0" cx="25" cy="25" rx="21.9" ry="21.8"/>
+                                <ellipse className="bb0" cx="25" cy="25" rx="21.9" ry="21.8"/>
                                 
                                 <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="23.4916" y1="-30.0408" x2="25.7662" y2="21.6557" gradientTransform="matrix(1 0 0 1 0 20)">
                                 <stop  offset="0" style={{stopColor:'#E9E4DE',stopOpacity:0}}/>
@@ -450,7 +450,7 @@ class SportsIcon extends Component {
                                 <stop  offset="0.9897" style={{stopColor:'#D3C4B8',stopOpacity:'0.9951'}}/>
                                 <stop  offset="0.9946" style={{stopColor:'#D2C3B7'}} />
                                 </linearGradient>
-                                <path class="bb1" d="M11.7,7.7c-5.2,4-8.6,10.2-8.6,17.3C3.1,37.1,13,46.9,25,46.9S46.9,37.1,46.9,25c0-6.5-2.8-12.3-7.4-16.3
+                                <path className="bb1" d="M11.7,7.7c-5.2,4-8.6,10.2-8.6,17.3C3.1,37.1,13,46.9,25,46.9S46.9,37.1,46.9,25c0-6.5-2.8-12.3-7.4-16.3
                                 c4.7,4.2,6.1,13,4.9,18.8c-1.2,6-5.8,11.9-11.6,14.3c-7.1,2.9-16.3,1.3-21.7-4.3c-4.2-4.3-5.9-10.3-5.5-16.1
                                 C6,15.9,8.4,11.5,11.7,7.7z"/>
                                 
@@ -461,7 +461,7 @@ class SportsIcon extends Component {
                                 <stop  offset="0.8725" style={{stopColor:'#7E8A8D'}} />
                                 <stop  offset="0.9892" style={{stopColor:'#748284'}} />
                                 </linearGradient>
-                                <path class="bb2" d="M13,34.4c-1,2-2.2,4-3.7,5.8c0.3,0.3,0.4,0.4,0.7,0.7c1.5-1.9,2.8-3.8,3.9-6c4.6-9.8,4.3-20.2-0.5-28.3
+                                <path className="bb2" d="M13,34.4c-1,2-2.2,4-3.7,5.8c0.3,0.3,0.4,0.4,0.7,0.7c1.5-1.9,2.8-3.8,3.9-6c4.6-9.8,4.3-20.2-0.5-28.3
                                 c-0.3,0.2-0.5,0.4-0.9,0.5C17.1,14.9,17.4,24.9,13,34.4z"/>
                                 
                                 <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="30.4848" y1="-23.5846" x2="43.2076" y2="22.7628" gradientTransform="matrix(1 0 0 1 0 20)">
@@ -471,7 +471,7 @@ class SportsIcon extends Component {
                                 <stop  offset="0.8725" style={{stopColor:'#7E8A8D'}} />
                                 <stop  offset="0.9892" style={{stopColor:'#748284'}} />
                                 </linearGradient>
-                                <path class="bb3" d="M41.3,39.7c-1.2-1.6-2.4-3.4-3.3-5.2c-4.4-9.3-4.2-19.2,0.2-26.9c-0.3-0.2-0.5-0.4-0.9-0.6
+                                <path className="bb3" d="M41.3,39.7c-1.2-1.6-2.4-3.4-3.3-5.2c-4.4-9.3-4.2-19.2,0.2-26.9c-0.3-0.2-0.5-0.4-0.9-0.6
                                 c-4.6,8-4.9,18.3-0.3,27.9c1,2,2.1,3.8,3.5,5.5C40.8,40.2,41,39.9,41.3,39.7z"/>
                                 <g>
                                 <path fill="#AB3B2E" d="M38.5,36.9c-0.1,0-0.3-0.1-0.4-0.2c-1.5-1.5-3-1.2-3.1-1.2c-0.3,0.1-0.4-0.1-0.5-0.4
@@ -636,26 +636,26 @@ class SportsIcon extends Component {
                                 <circle cx="14.2" cy="14.6" r="10.4"/>
                                 <circle fill="#E43E25" cx="14.2" cy="14.6" r="8.7"/>
                                 <path d="M8.8,21.5l-0.5-0.1c-0.4-0.1-0.7-0.4-0.8-0.8l-0.1-0.5L19.7,7.9L20.2,8c0.4,0.1,0.7,0.4,0.8,0.8l0.1,0.5L8.8,21.5z"/>
-                                <g class="cri4">
+                                <g className="cri4">
                                 <path fill="#fff" d="M17.4,6.8c0.1-0.1,0.1-0.1,0-0.2s-0.1-0.1-0.2,0L6,17.6c0,0.1,0.1,0.2,0.1,0.3h0.1L17.4,6.8z"/>
                                 </g>
-                                <g class="cri4">
+                                <g className="cri4">
                                 <path fill="#fff" d="M10.9,22.5c-0.1,0.1-0.1,0.1,0,0.2s0.1,0.1,0.2,0l11.2-11c0-0.1-0.1-0.2-0.1-0.3H22
                                     C22,11.4,10.9,22.5,10.9,22.5z"/>
                                 </g>
-                                <g class="cri6">
+                                <g className="cri6">
                                 <path fill="#fff" d="M9.7,21.9c-0.1,0.1-0.1,0.1,0,0.2s0.1,0.1,0.2,0l11.7-11.6c0-0.1-0.1-0.2-0.1-0.3h-0.1
                                     C21.5,10.2,9.7,21.9,9.7,21.9z"/>
                                 </g>
-                                <g class="cri7">
+                                <g className="cri7">
                                 <path fill="#fff" d="M8.9,21.3c-0.1,0.1-0.1,0.1,0,0.2s0.1,0.1,0.2,0l12-11.8c0-0.1-0.1-0.2-0.1-0.3h-0.1
                                     C20.9,9.5,8.9,21.3,8.9,21.3z"/>
                                 </g>
-                                <g class="cri7">
+                                <g className="cri7">
                                 <path fill="#fff" d="M19.6,8.2c0.1-0.1,0.1-0.1,0-0.2s-0.1-0.1-0.2,0l-12,11.8c0,0.1,0.1,0.2,0.1,0.3h0.1
                                     C7.5,20,19.6,8.2,19.6,8.2z"/>
                                 </g>
-                                <g class="cri6">
+                                <g className="cri6">
                                 <path fill="#fff" d="M18.6,7.4c0.1-0.1,0.1-0.1,0-0.2s-0.1-0.1-0.2,0L6.7,18.8c0,0.1,0.1,0.2,0.1,0.3h0.1
                                     C6.9,19.1,18.6,7.4,18.6,7.4z"/>
                                 </g>

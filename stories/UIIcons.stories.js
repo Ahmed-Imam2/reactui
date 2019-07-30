@@ -62,7 +62,15 @@ storiesOf('Icon UI', module)
             'table',
             'topGames',
 			'rightChevron',
-			'leftChevron'
+			'leftChevron',
+			'clock',
+			'dashboard',
+            'partners',
+            'circlePlus',
+            'bars',
+            'payments',
+            'headset',
+            'cursor'
 		]
 
 		return icons.map( icon => {

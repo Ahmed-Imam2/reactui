@@ -56,6 +56,15 @@ table
 topGames
 leftChevron
 rightChevron
+clock
+dashboard
+partners
+circlePlus
+bars
+payments
+headset
+cursor
+logo
 ```
 
 ## Usage

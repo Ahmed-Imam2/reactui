@@ -87,7 +87,9 @@ class InputPassword extends Component {
         /* AutoComplete */
         autoComplete: bool,
         /* Value */
-        value: string
+        value: string,
+        hint: string,
+        className: string
     }
 
     state = {
@@ -108,7 +110,9 @@ class InputPassword extends Component {
             error,
             placeholder,
             autoComplete,
-            value
+            value,
+            hint,
+            className
         } = this.props
 
         const { passwordFieldType } = this.state
@@ -135,9 +139,10 @@ class InputPassword extends Component {
                             size={20} 
                             onClick={this.togglePassword} />}
                 </InputWrapper>
-                {error ? (
-                    <HelpBlock>
+                {error || hint ? (
+                    <HelpBlock className={className}>
                         {error ? <span className="error">{error}</span>  : null}
+                        {hint ? <span className="hint">{hint}</span> : null}
                     </HelpBlock>
                 ) : null}
             </PasswordWrapper>

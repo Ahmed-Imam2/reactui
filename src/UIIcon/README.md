@@ -65,6 +65,10 @@ payments
 headset
 cursor
 logo
+quickLinks
+betslip
+myBets
+results
 ```
 
 ## Usage

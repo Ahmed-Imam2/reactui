@@ -101,7 +101,7 @@ class Collapsible extends Component {
 
     render() {
         
-        const { title, children, fullWidth, count } = this.props
+        const { title, children, fullWidth, count, icon } = this.props
         const { open } = this.state
         
         return (
@@ -110,12 +110,13 @@ class Collapsible extends Component {
                     open={open}
                     className={open ? 'closed' : ''} 
                     onClick={this.toggle}>
-
+                        
+                    { icon ? <UIIcon {...icon} /> : null }
                     <CollapsibleHeaderTitle>
                         {title}
                         <label>{count}</label>
                     </CollapsibleHeaderTitle>
-                                   
+
                     <div className="icons">
                         {!open ? <UIIcon type="circleUpLight" /> : <UIIcon type="circleDownLight" />}
                     </div>

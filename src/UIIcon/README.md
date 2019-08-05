@@ -56,6 +56,19 @@ table
 topGames
 leftChevron
 rightChevron
+clock
+dashboard
+partners
+circlePlus
+bars
+payments
+headset
+cursor
+logo
+quickLinks
+betslip
+myBets
+results
 ```
 
 ## Usage

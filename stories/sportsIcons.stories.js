@@ -1,39 +1,16 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-
+import Icons from '../src/SportsIcon/Icons'
 import SportsIcon from '../src/SportsIcon'
 
 storiesOf('Icons Sports', module)
 	.add('Soccer Icon', () => {
 
-		const sportsIcons = [
-			'soccer',
-			'basketball',
-			'esports',
-			'boxing',
-			'tennis',
-			'volleyball',
-			'baseball', 
-			'aussieRules', 
-			'americanfootball',
-			'icehockey',
-			'cricket',
-			'golf',
-			'numbergames',
-			'placeholder',
-			'badminton',
-			'rubgy',
-			'dogracing',
-			'horseracing',
-			'virtualsports',
-			'motorsports',
-			'allsports'
-		]
-		return sportsIcons.map( sport => {
+		return Icons.map( (sport,i) => {
 			return (
 				<div style={{display:'inline-block',marginLeft:20,marginBottom:10}}>
-					<SportsIcon type={sport} size={50} key={`SportIcon_${sport}`} />
-					<span style={{display:'flex',alignItems:'center',justifyContent:'center'}}>{sport}</span>
+					<SportsIcon type={sport.name} size={50} key={i} />
+					<span style={{display:'flex',alignItems:'center',justifyContent:'center'}}>{sport.name}</span>
 				</div>
 			)
 		})

@@ -14,6 +14,7 @@ storiesOf('Input Text', module)
 					type='text'
 					label='Label'
 					hint='Hint'
+					error='Error messages'
 					placeholder='Username'
 				/>
 			)
@@ -24,7 +25,8 @@ storiesOf('Input Text', module)
 			<InputPassword 
 				onChange={(e) => console.log(e)}
 				label='Password field'
-				error='Error message'
+				error='Error messages'
+				hint="Hint"
 				placeholder='Password'
 			/>
 		)

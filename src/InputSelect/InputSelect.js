@@ -6,8 +6,8 @@ const SelectWrapper = styled.div`
     position: relative;
 `
 const Select = styled.select`
-    -webkit-appearance: none;
-    appearance: none;    
+    // -webkit-appearance: none;
+    // appearance: none;
     line-height: 21px;
     outline: 0;
     background-color: transparent;
@@ -50,8 +50,8 @@ const Label = styled.label`
 class InputSelect extends Component {
 
     static propTypes = {
-        name: PropTypes.string,
-        value: PropTypes.string,
+        name: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+        value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
         handleChange: PropTypes.func,
         options: PropTypes.array,
         placeholder: PropTypes.string,

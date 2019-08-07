@@ -5,7 +5,7 @@ import Tooltip from './style'
 
 export default (props) => {
     const {position, text , tooltipText} = props
-    const tooltipWidth = tooltipText.length <=4 ? tooltipText.length * 15 : tooltipText.length * 9
+    const tooltipWidth = tooltipText.toString().length <=4 ? tooltipText.toString().length * 15 : tooltipText.toString().length * 9
 
     return (
         <Tooltip width={tooltipWidth} position ={position}>
